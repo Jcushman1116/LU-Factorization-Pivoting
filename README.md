@@ -58,8 +58,8 @@ type to relate conditioning to factorization stability.
 - **Growth factor matrix** — growth factor blows up for no pivoting and partial
   pivoting; complete pivoting remains stable, demonstrating the limitation of
   row-only permutations
-- **Symmetric positive definite** — stable across all methods; U = DL^T where D
-  is the diagonal of U, with $L_{\text{tilde}} = LD^{1/2}$ recovering the
+- **Symmetric positive definite** — stable across all methods; $U = DL^T$ where $D$
+  is the diagonal of $U$, with $L_{\text{tilde}} = LD^{1/2}$ recovering the
   Cholesky-like structure
 
 ## Language
